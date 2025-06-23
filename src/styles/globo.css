@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+:root{
+    --color-neutral-black: #263238;
+    --color-neutral-D_Grey: #4D4D4D;
+    --color-neutral-Grey: #717171;
+    --color-neutral-L-Grey: #89939E;
+    --color-neutral-Grey_Blue: #ABBED1;
+    --color-neutral-Silver: #F5F7FA;
+    --color-neutral-White: #FFFFFF;
+
+
+    --color-primary: #4CAF4F;
+    --color-secondary: #263238;
+    --color-info: #2194f3;
+
+
+    --color-shande-shade1: #43A046;
+    --color-shande-shade2: #388E3B;
+    --color-shande-shade3: #237D31; 
+    --color-shande-shade4: #1B5E1F;
+    --color-shande-shade5: #103E13;
+
+
+    --color-tint-tint1: #66BB69;
+    --color-tint-tint2: #81C784;
+    --color-tint-tint3: #A5D6A7;
+    --color-tint-tint4: #C8E6C9;
+    --color-tint-tint5: #E8F5E9;
+
+
+    --color-action-warning: #FBC02D;
+    --color-action-error: #E53835;
+    --color-action-success: #2E7D31;
+
+
+    --font: "Inter", sans-serif;
+}
+
+body{
+    font-family: var(--font);
+}
+
+.btn-primary{
+    padding: 14px 32px;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-White);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 16px;
+}
+
+.btn-primary:hover{
+    background-color: var(--color-shande-shade3);
+}
